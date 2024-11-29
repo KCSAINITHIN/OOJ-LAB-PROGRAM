@@ -69,12 +69,12 @@ public class DivisionApp {
             }
         });
 
-        // Make the frame visible
+
         frame.setVisible(true);
     }
 
     public static void main(String[] args) {
-        // Initialize the app and create the UI
+
         new DivisionApp();
     }
 }
