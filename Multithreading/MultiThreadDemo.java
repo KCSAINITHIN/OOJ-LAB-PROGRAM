@@ -20,7 +20,6 @@ class DepartmentThread extends Thread {
         try {
             while (true) {
                 System.out.println("CSE");
-                Thread.sleep(2000); // Pause for 2 seconds
             }
         } catch (InterruptedException e) {
             System.out.println("DepartmentThread interrupted: " + e.getMessage());
