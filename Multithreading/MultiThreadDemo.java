@@ -1,6 +1,5 @@
 
 class CollegeThread extends Thread {
-    @Override
     public void run() {
         try {
             while (true) {
@@ -15,7 +14,6 @@ class CollegeThread extends Thread {
 
 
 class DepartmentThread extends Thread {
-    @Override
     public void run() {
         try {
             while (true) {
@@ -30,7 +28,6 @@ class DepartmentThread extends Thread {
 
 public class MultiThreadDemo {
     public static void main(String[] args) {
-        // Create and start the threads
         CollegeThread collegeThread = new CollegeThread();
         DepartmentThread departmentThread = new DepartmentThread();
 
