@@ -30,7 +30,6 @@ public class MultiThreadDemo {
     public static void main(String[] args) {
         CollegeThread collegeThread = new CollegeThread();
         DepartmentThread departmentThread = new DepartmentThread();
-
         collegeThread.start();
         departmentThread.start();
     }
