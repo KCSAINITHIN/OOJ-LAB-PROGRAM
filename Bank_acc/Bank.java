@@ -46,7 +46,6 @@ class SavAccount extends Account {
     }
 
 
-    @Override
     public void withdraw(double amount) {
         if (balance >= amount) {
             balance -= amount;
@@ -72,7 +71,6 @@ class CurAccount extends Account {
     }
 
 
-    @Override
     public void withdraw(double amount) {
         if (balance >= amount) {
             balance -= amount;
