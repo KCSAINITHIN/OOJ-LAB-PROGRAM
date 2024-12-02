@@ -26,20 +26,20 @@ public class Main {
         Scanner s = new Scanner(System.in);
         
         System.out.print("Enter the number of books: ");
-        int n = Integer.parseInt(s.nextLine()); // Use nextLine and parse to int
+        int n = Integer.parseInt(s.nextLine()); 
 
         Book[] books = new Book[n];
 
         for (int i = 0; i < n; i++) {
             System.out.println("Enter details for book " + (i + 1) + ":");
             System.out.print("Name: ");
-            String name = s.nextLine(); // Read full name
+            String name = s.nextLine(); 
             System.out.print("Author: ");
-            String author = s.nextLine(); // Read full author name
+            String author = s.nextLine(); 
             System.out.print("Price: ");
-            int price = Integer.parseInt(s.nextLine()); // Parse price from string
+            int price = Integer.parseInt(s.nextLine()); 
             System.out.print("Number of pages: ");
-            int numPages = Integer.parseInt(s.nextLine()); // Parse number of pages from string
+            int numPages = Integer.parseInt(s.nextLine()); 
 
             books[i] = new Book(name, author, price, numPages);
         }
@@ -49,7 +49,7 @@ public class Main {
             System.out.println(books[i].toString());
         }
         
-        s.close(); // Close the scanner
+        s.close(); 
     }
 }
 
