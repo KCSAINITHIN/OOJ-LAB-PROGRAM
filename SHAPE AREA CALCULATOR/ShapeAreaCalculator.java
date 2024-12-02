@@ -28,7 +28,7 @@ class Rectangle extends Shape {
         this.dimension2 = getInput("Enter width of the rectangle: ");
     }
 
-    @Override
+    
     public void printArea() {
         int area = dimension1 * dimension2;
         System.out.println("Area of Rectangle: " + area);
@@ -42,7 +42,6 @@ class Triangle extends Shape {
         this.dimension2 = getInput("Enter height of the triangle: ");
     }
 
-    @Override
     public void printArea() {
         double area = 0.5 * dimension1 * dimension2;
         System.out.println("Area of Triangle: " + area);
@@ -55,7 +54,6 @@ class Circle extends Shape {
         this.dimension1 = getInput("Enter radius of the circle: ");
     }
 
-    @Override
     public void printArea() {
         double area = Math.PI * dimension1 * dimension1;
         System.out.println("Area of Circle: " + area);
